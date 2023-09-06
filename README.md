@@ -7,7 +7,7 @@ Have test documents for ingestion in `source_documents` folder
 
 `docker compose up` for running postgres.
 
-On psql shell `CREATE EXTENSION VECTOR;`  to create the pgvector on Postgres
+On psql shell `CREATE EXTENSION VECTOR;`  to create the pgvector extension on Postgres
 
 `python ingest.py`
 
