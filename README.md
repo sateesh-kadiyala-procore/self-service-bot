@@ -9,9 +9,15 @@ Have test documents for ingestion in `source_documents` folder
 
 On psql shell `CREATE EXTENSION VECTOR;`  to create the pgvector extension on Postgres
 
+Install  `poetry` and install `poetry shell` for activating the virtual env.
+
+`poetry intall`
+
+`cp .env.example .env`
+
 `python ingest.py`
 
-`python app.py`
+`uvicorn app:api --port 3000 --reload`
 
 Example Request:
 
